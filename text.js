@@ -36,3 +36,9 @@ http('http://123.206.55.50:11111', '/user/login', {}, {'X-Token': 'bear token'},
 }, err=>{
 	console.log('请求失败...', err)
 })
+
+
+function submit(){
+	console.log('我第一更改');
+}
+submit()
